@@ -1,0 +1,2 @@
+#NPoco.Identity.Provider.Website
+This template is a modified version of the default ASP.Net 4.52 MVC template with individual user accounts updated to use the [NPoco.Identity.Provider](https://github.com/izio/NPoco.Identity.Provider).  
