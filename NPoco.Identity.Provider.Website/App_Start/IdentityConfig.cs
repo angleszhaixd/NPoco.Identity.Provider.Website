@@ -38,7 +38,7 @@ namespace NPoco.Identity.Provider.Website
 
         public static ApplicationUserManager Create(IdentityFactoryOptions<ApplicationUserManager> options, IOwinContext context)
         {
-            var manager = new ApplicationUserManager(new UserStore<IdentityUser, IdentityRoles, IdentityClaim, IdentityLogin, IdentityRole, int>("Boing"));
+            var manager = new ApplicationUserManager(new UserStore<IdentityUser, IdentityRoles, IdentityClaim, IdentityLogin, IdentityRole, int>("Membership"));
             // Configure validation logic for usernames
             manager.UserValidator = new UserValidator<IdentityUser, int>(manager)
             {
